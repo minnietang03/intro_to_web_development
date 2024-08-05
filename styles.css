@@ -1,0 +1,56 @@
+/* add your CSS here */
+
+/* Set the width of the image */
+.animal-image {
+    width: 300px;
+}
+
+/* Set the width of the card and add padding */
+.card {
+    width: 320px; /* 300px image width + 20px padding */
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+/* Add borders around the animal's name, image, and information */
+.animal-name, .animal-image, .animal-info {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Italicize the interesting fact */
+.interesting-fact {
+    font-style: italic;
+}
+
+/* Bold the labels in the list items */
+.label {
+    font-weight: bold;
+}
+
+/* Remove bullets from the list items */
+.animal-details {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* Add padding around the animal's information */
+.animal-info {
+    padding: 10px;
+}
+
+/* Add spacing or padding around the card */
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
